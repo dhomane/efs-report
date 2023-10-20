@@ -1,5 +1,10 @@
 # EFS Report
 
+curl -Os https://raw.githubusercontent.com/dhomane/efs-report/main/efsreport.sh && chmod +x efsreport.sh
+mv efsreport.sh efsreport
+mv efsreport /bin
+
+
 USAGE: efsreport [-hlw] [-t mount-target] [-d seconds] [-p tmp-dir] [-r NFS|RPC|ALL]
 
     efsreport -h
